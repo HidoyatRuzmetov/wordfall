@@ -48,3 +48,17 @@ _preview.png
 # Uncomment if you don't want these tracked:
 # wordfall-preview.html
 # wordfall-demodict.js
+
+# VS Code
+.vscode/
+
+# AI/development instructions
+AGENTS.md
+
+# Internal planning and notes
+Start From Here/
+
+# Local previews and experiments
+wordfall-preview.html
+wordfall-demodict.js
+tools/randomness-experiments/
