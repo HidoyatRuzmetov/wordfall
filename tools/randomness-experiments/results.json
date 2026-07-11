@@ -1,0 +1,1790 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-08T18:56:00.166Z",
+    "runsPerVariant": 320,
+    "sampleRuns": 20,
+    "durationSec": 120,
+    "wordWindow": 12,
+    "wordWindowStep": 4,
+    "wordBankLimit": 1200,
+    "trickWord": "PLANET"
+  },
+  "variants": [
+    {
+      "id": "current",
+      "label": "Current smoothing",
+      "notes": "Current letter distribution plus recent-repeat and vowel/consonant run guards.",
+      "playabilityScore": 44.3,
+      "scoreParts": {
+        "affordance": 46.6,
+        "deadWindows": 32.7,
+        "longWords": 17,
+        "trickReliability": 47.2,
+        "rareAccess": 61.5,
+        "commonDroughts": 0,
+        "variety": 94.8
+      },
+      "means": {
+        "objects": 117,
+        "letters": 95.7,
+        "hazards": 11.9,
+        "bonuses": 9.4,
+        "vowelPct": 40.6,
+        "rareCount": 2.39,
+        "maxRareGap": 57.1,
+        "trickMarked": 11.5,
+        "avgPlayableWords12": 2,
+        "deadWordWindowPct": 22.4,
+        "longWordWindowPct": 17,
+        "worstCommonLetterGap": 73.2,
+        "normalizedEntropy": 94.8
+      },
+      "rates": {
+        "noRareRunPct": 6.9,
+        "twoTrickCyclesPct": 47.2,
+        "trickSubsequencePct": 99.4
+      },
+      "p90": {
+        "maxRareGap": 89,
+        "worstCommonLetterGap": 94,
+        "deadWordWindowPct": 36.4
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "letters": 93,
+          "vowelPct": 37.6,
+          "rareCount": 2,
+          "trickMarked": 19,
+          "avgPlayableWords12": 2.9,
+          "sequence": "OTNPEISTLACMJENRYIMENSEHTHOWPOWMFEYITLILHZAOTEWRANURNESEBATISMPETHLENAMNIEIRESTCUASPAPETEGTSA"
+        },
+        {
+          "sample": 2,
+          "letters": 98,
+          "vowelPct": 41.8,
+          "rareCount": 2,
+          "trickMarked": 10,
+          "avgPlayableWords12": 1.2,
+          "sequence": "NBPATJNEVMISPNOPGULSOGEARNMIWNIEANAGNGEIELRATBWOEDOSWIWDNEHCETSTEMAHASNEOCPREILWTIAOFAOUNMIUCZINEO"
+        },
+        {
+          "sample": 3,
+          "letters": 107,
+          "vowelPct": 40.2,
+          "rareCount": 5,
+          "trickMarked": 10,
+          "avgPlayableWords12": 1.9,
+          "sequence": "EPAOSCEOEQGTINSOLOSRWESTRAHELIETSNAITNAIEWRETZGOGXOWTPITYISTADLEOCEOGTHEPEWRGAJNILSZIATEARLSUNLHAETFHIECDSI"
+        },
+        {
+          "sample": 4,
+          "letters": 96,
+          "vowelPct": 39.6,
+          "rareCount": 0,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2,
+          "sequence": "YALMIPAHACLPONGLICIARONEOLUAHAGTEBSTEHRFITVREOPTATIAPSLAYBTOUNAHWENECNSOTNRAESLENANARIOHLNOLTDUL"
+        },
+        {
+          "sample": 5,
+          "letters": 97,
+          "vowelPct": 40.2,
+          "rareCount": 2,
+          "trickMarked": 12,
+          "avgPlayableWords12": 3,
+          "sequence": "IAPESWTUREATESALSALTMAHTNAFLEYTAGSNETFNIERTESTLEUTOSTNIETWOEAPLDITSRUOARETUACHNEGSQUEOLSEBFJIBTIR"
+        },
+        {
+          "sample": 6,
+          "letters": 84,
+          "vowelPct": 44,
+          "rareCount": 2,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.2,
+          "sequence": "EIHPUCWAIKOLGTALRINOUTJOUANEUBOESOSEIDETBLITAHUADOICPLEYUGPSEHORMRAHLWINSWEHCREATDET"
+        },
+        {
+          "sample": 7,
+          "letters": 93,
+          "vowelPct": 37.6,
+          "rareCount": 1,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.5,
+          "sequence": "STIPLITNSEMHRISULHSARNIMHORFUWTETLPECYOTDRAOPGWEIETRGAOEDLSODLNASENEDTWAYCUHTSOEITUEOZEPONENC"
+        },
+        {
+          "sample": 8,
+          "letters": 103,
+          "vowelPct": 38.8,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 1.7,
+          "sequence": "FENTATSAPNLOEASRANLIGNQERNPAIORWREHIOSEOELWTATGORMOHNLAVTECSOENOGTBAWAJPIGUHISDHINPTAPTOHILXANBNOEITDFU"
+        },
+        {
+          "sample": 9,
+          "letters": 105,
+          "vowelPct": 41,
+          "rareCount": 5,
+          "trickMarked": 14,
+          "avgPlayableWords12": 2.3,
+          "sequence": "WQZATACPSIESLOAOHPNIHETURAFRAPTUOSUZHLAWIWADNTIEATOHREYHORIENATNEOQTHEMANGQETRHEUTHAPELBDEDRSELAEADRFEIDL"
+        },
+        {
+          "sample": 10,
+          "letters": 92,
+          "vowelPct": 41.3,
+          "rareCount": 4,
+          "trickMarked": 14,
+          "avgPlayableWords12": 2.3,
+          "sequence": "RELASPYEGPNOUXEATRNEAECLNIOATEWNSEALAIEGDWENDETMRERSNEPILQEANEHSTAOELTLAFAYPSELADNKEHLZETLAU"
+        },
+        {
+          "sample": 11,
+          "letters": 93,
+          "vowelPct": 44.1,
+          "rareCount": 1,
+          "trickMarked": 10,
+          "avgPlayableWords12": 1.4,
+          "sequence": "PBEHCMINLCOAHEOSNMEFEUTLOAPDIUSNSATETAYEHBXETODSUPTEPITAILAODTAOCLENAEHTCATLAMIEHUTOSAIOHWHEN"
+        },
+        {
+          "sample": 12,
+          "letters": 95,
+          "vowelPct": 40,
+          "rareCount": 0,
+          "trickMarked": 16,
+          "avgPlayableWords12": 1.5,
+          "sequence": "RTNEAIHPIRLAELNEULGCETUSRMUPDNIEASEHULPIFDHARLANLNETHEYOBHTEPDHEAHUELWYOTMCIDSDIGEADRENIAYBATIU"
+        },
+        {
+          "sample": 13,
+          "letters": 91,
+          "vowelPct": 37.4,
+          "rareCount": 2,
+          "trickMarked": 9,
+          "avgPlayableWords12": 3.1,
+          "sequence": "TPLASTAOVOFGSEIPRETSOPYEUOTNFIRALQCETIANEMCORNROSTJOTDEPTPIEBROHPIGLROASEOMASTEMALCRESMTOLR"
+        },
+        {
+          "sample": 14,
+          "letters": 100,
+          "vowelPct": 41,
+          "rareCount": 3,
+          "trickMarked": 6,
+          "avgPlayableWords12": 2,
+          "sequence": "EPATHDAFEOSDSEYUREHIEVWOFRJAHITRYECDALOLEAHMHATDUOSTEGWERJSOHELDHUAFNHUEMERLHONSHEDAIETJLAEBOSPCEIEL"
+        },
+        {
+          "sample": 15,
+          "letters": 97,
+          "vowelPct": 45.4,
+          "rareCount": 3,
+          "trickMarked": 14,
+          "avgPlayableWords12": 1.9,
+          "sequence": "PEHOILYATRIENMUEOKCLAHEOASELORIAENTCUTDRERATBKANIPTLELHAIERPMEOUBHNOZAEREANITLEITNDETOSCPEAHEVHOL"
+        },
+        {
+          "sample": 16,
+          "letters": 99,
+          "vowelPct": 39.4,
+          "rareCount": 3,
+          "trickMarked": 19,
+          "avgPlayableWords12": 2.6,
+          "sequence": "QPNOLTGADONTWONRHEAWDIEMFAESTEPNLONKAFIHANEDAREPTAOETEAKTGACPLIHIOARENREHSOHVEFMOERUSWHUEHTFENCHETP"
+        },
+        {
+          "sample": 17,
+          "letters": 90,
+          "vowelPct": 37.8,
+          "rareCount": 1,
+          "trickMarked": 7,
+          "avgPlayableWords12": 1.9,
+          "sequence": "SNOLEFPAXOMRMAOAYSREINTLAMHEYTAIMNLALNAHRENUEFRNIHONLTAHIAEMTLOTBVEPTWITHRILTNURALERUATLAP"
+        },
+        {
+          "sample": 18,
+          "letters": 87,
+          "vowelPct": 39.1,
+          "rareCount": 3,
+          "trickMarked": 8,
+          "avgPlayableWords12": 2.5,
+          "sequence": "WBLEPVWONRBEGHNEALOWCSIPAOLDOLKENANOTPARMNECSTAGEANERCPAEAHSIORPTABEATOECPHISLEAWKILTKI"
+        },
+        {
+          "sample": 19,
+          "letters": 99,
+          "vowelPct": 36.4,
+          "rareCount": 2,
+          "trickMarked": 9,
+          "avgPlayableWords12": 2.2,
+          "sequence": "CDEDGHONCHEYLGOTEOPHEOSLSOAHLNANEAETSLOESAMRTEFRAMOPENLGIEARPUFLWILMSUKRTISRUIBMJOMORCAHARTSICBAVRC"
+        },
+        {
+          "sample": 20,
+          "letters": 92,
+          "vowelPct": 42.4,
+          "rareCount": 0,
+          "trickMarked": 16,
+          "avgPlayableWords12": 3.1,
+          "sequence": "OETOTPLUDIRAONBTALEHIEATWRIETHOMSETNIPEOASVFEULDGILTDOLRSITANTNOETYIETPLAONTSISAELOTUYEGNINS"
+        }
+      ]
+    },
+    {
+      "id": "rare-floor",
+      "label": "Current + rare floor",
+      "notes": "Forces a rare letter after a long rare drought if it can pass smoothing.",
+      "playabilityScore": 48.8,
+      "scoreParts": {
+        "affordance": 40.6,
+        "deadWindows": 29.1,
+        "longWords": 16.1,
+        "trickReliability": 46.6,
+        "rareAccess": 100,
+        "commonDroughts": 0,
+        "variety": 95.7
+      },
+      "means": {
+        "objects": 117,
+        "letters": 95.8,
+        "hazards": 11.8,
+        "bonuses": 9.4,
+        "vowelPct": 40.2,
+        "rareCount": 3.63,
+        "maxRareGap": 34,
+        "trickMarked": 11.5,
+        "avgPlayableWords12": 1.9,
+        "deadWordWindowPct": 23.6,
+        "longWordWindowPct": 16.1,
+        "worstCommonLetterGap": 76.2,
+        "normalizedEntropy": 95.7
+      },
+      "rates": {
+        "noRareRunPct": 0,
+        "twoTrickCyclesPct": 46.6,
+        "trickSubsequencePct": 99.4
+      },
+      "p90": {
+        "maxRareGap": 35,
+        "worstCommonLetterGap": 96,
+        "deadWordWindowPct": 37.5
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "letters": 98,
+          "vowelPct": 39.8,
+          "rareCount": 5,
+          "trickMarked": 9,
+          "avgPlayableWords12": 2.3,
+          "sequence": "EVTCEXNPEKMTOHICDSAODOHPEAELSAXOMEWAEHPILEHNLADNYIGTOCAIEDRCEDSTEZLOTSOEUSPQADLTEYAOVELHTOADCRENIT"
+        },
+        {
+          "sample": 2,
+          "letters": 92,
+          "vowelPct": 39.1,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2,
+          "sequence": "NRIVRDAISPOFINEKILYASANMFOASQENTSAPIAULGIUTPEVIRANACONLTUVNEHSNEQLNERTHAEMHAORDTUNTELRITSTOE"
+        },
+        {
+          "sample": 3,
+          "letters": 96,
+          "vowelPct": 41.7,
+          "rareCount": 4,
+          "trickMarked": 10,
+          "avgPlayableWords12": 1.1,
+          "sequence": "TYSITPDUETHOLPNINDHUETDGIUIFLENERLZUADATLYIWANEAENUOZAMQNIEDRESOISEOHTWATAYEDPGEDRLORHELYAQNAEIN"
+        },
+        {
+          "sample": 4,
+          "letters": 98,
+          "vowelPct": 42.9,
+          "rareCount": 3,
+          "trickMarked": 9,
+          "avgPlayableWords12": 1.6,
+          "sequence": "NAEFPCEPCBOILYFARAUNOCLSEYEKRACEORSNORELVTOTREORPTETNUAENFRALDJAROAISIALHDUREAWIRIFANAEBCEWNGEANAK"
+        },
+        {
+          "sample": 5,
+          "letters": 99,
+          "vowelPct": 40.4,
+          "rareCount": 3,
+          "trickMarked": 9,
+          "avgPlayableWords12": 2.3,
+          "sequence": "ATRDETPSUIDEDEAGNPETPWASVEHPTIWJLEONIHMUDATENSDUOASASNOTERTHEAIVOEQHARPNACMKETSEFUSTRUNAETPERWLEANO"
+        },
+        {
+          "sample": 6,
+          "letters": 98,
+          "vowelPct": 40.8,
+          "rareCount": 4,
+          "trickMarked": 15,
+          "avgPlayableWords12": 2.2,
+          "sequence": "HMTIONPLONIPACTOINCLICUETATBOLSENMZEOTAXWMEATPSELOTEANWIQETOETDPIEGLNALTHIEANSOYVTAEADELCDAJGAWDLE"
+        },
+        {
+          "sample": 7,
+          "letters": 88,
+          "vowelPct": 38.6,
+          "rareCount": 2,
+          "trickMarked": 16,
+          "avgPlayableWords12": 1.8,
+          "sequence": "BEADYPOLTNOCNLAFAFNTUADAECHTINTUELJTOSEIRTFACETPSEYTLICASIWNTUTLEIEDITZEREPLWAMFAENCNEOD"
+        },
+        {
+          "sample": 8,
+          "letters": 98,
+          "vowelPct": 38.8,
+          "rareCount": 3,
+          "trickMarked": 10,
+          "avgPlayableWords12": 1.4,
+          "sequence": "SCWATPIDHSEHELAHWEUAPATOPTYIRJNIUEVERDATIRHWOAECTNOETIRFPEFCHOUTJNOSPNILXFAFVTISUIRSALPDOHADLNAOIT"
+        },
+        {
+          "sample": 9,
+          "letters": 102,
+          "vowelPct": 45.1,
+          "rareCount": 3,
+          "trickMarked": 9,
+          "avgPlayableWords12": 2.8,
+          "sequence": "UEAPMLAISELBFEUAVTESTNAEOWTUIASELAQLUTYOSIKESNWAEHREGNTIOWNRAEDREFIMVNEIOYWTAKNIPBTASIPELANAOHONEAYART"
+        },
+        {
+          "sample": 10,
+          "letters": 92,
+          "vowelPct": 45.7,
+          "rareCount": 2,
+          "trickMarked": 10,
+          "avgPlayableWords12": 1.5,
+          "sequence": "ITOEPIERBOUSLTALUMTROTPSAONHIHNAIOJIELTUNDROHESIASNIOSENTEITLPOMDEARDQUDEAERLATOROILAGUNDHEN"
+        },
+        {
+          "sample": 11,
+          "letters": 97,
+          "vowelPct": 39.2,
+          "rareCount": 6,
+          "trickMarked": 11,
+          "avgPlayableWords12": 2.1,
+          "sequence": "NLFEOPJELSLOAVENEUSCKAELHEIWVTITYICASHFIUHIAPNWELHLAICEZDZIADNTEASUWMDAERSDOJCNECEKNBASFODIMARSEH"
+        },
+        {
+          "sample": 12,
+          "letters": 101,
+          "vowelPct": 44.6,
+          "rareCount": 4,
+          "trickMarked": 10,
+          "avgPlayableWords12": 1.9,
+          "sequence": "ETEFASAIEHPRIECYHOLNAOINETMDUEIRNEKHERSWOSENTDARIRHAPDUHNHEALEADNKINUGEIESPSIAEDTNARFYOVKISQENOEWISAI"
+        },
+        {
+          "sample": 13,
+          "letters": 95,
+          "vowelPct": 42.1,
+          "rareCount": 3,
+          "trickMarked": 14,
+          "avgPlayableWords12": 1.4,
+          "sequence": "ICIRYPOIYITELTIZDTEIANAGNBOIRHSIEANTICPRIUBRVELBHEKAINEHRTAHUTPISANAROTNAEHDTUAELHEWPZIALAMEGHC"
+        },
+        {
+          "sample": 14,
+          "letters": 102,
+          "vowelPct": 39.2,
+          "rareCount": 3,
+          "trickMarked": 19,
+          "avgPlayableWords12": 1.6,
+          "sequence": "OEPILNOTAEHNMIHNTENHCAGDERECNYORWEJEWKIRTOILHPITBIAYARLNEHGYONAITUSNAEAHKHETUDISPRESACLTIFALNEDENATPDO"
+        },
+        {
+          "sample": 15,
+          "letters": 96,
+          "vowelPct": 37.5,
+          "rareCount": 5,
+          "trickMarked": 9,
+          "avgPlayableWords12": 1.8,
+          "sequence": "YXDAPTMEQNUROEHUHNYOTRSAIXLRARWAWNIVSHONPESWAOPUEYETRCUPTMAEKDLAYVHEAYANURLSESTLENTSISIALOECEASJ"
+        },
+        {
+          "sample": 16,
+          "letters": 96,
+          "vowelPct": 34.4,
+          "rareCount": 3,
+          "trickMarked": 17,
+          "avgPlayableWords12": 2,
+          "sequence": "HMSONTPEWTEAHGLUHERLARLUNTNESEIROMTQEPNIFENKOLTWENHTUANLYAILEANTPODSTOPYGEUVDNEQNDOLROLYAHONEYRW"
+        },
+        {
+          "sample": 17,
+          "letters": 89,
+          "vowelPct": 40.4,
+          "rareCount": 5,
+          "trickMarked": 7,
+          "avgPlayableWords12": 2.4,
+          "sequence": "OEOTARTPEOLEMICRARCEINEKIJOTWTEKCHEAFANSTOIXTDEHWEDTOSEINTNAPTEDESYSUETFPAPSICZSEYIROGDCE"
+        },
+        {
+          "sample": 18,
+          "letters": 86,
+          "vowelPct": 45.3,
+          "rareCount": 4,
+          "trickMarked": 8,
+          "avgPlayableWords12": 2.5,
+          "sequence": "UEOSESUIHTREUCUPILAHTPOCLPOETASOLTQOCECEAODOIRHESEONSHEIXOTEJHCIFJASNDEMEALTAITENPLAGP"
+        },
+        {
+          "sample": 19,
+          "letters": 93,
+          "vowelPct": 41.9,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2,
+          "sequence": "PILWPIOSLAISACMHENELANOEOBTNERPDILKCIAYVTESJSAULAUTSTAWENKILETAEWCSEAREORITNESHTOSRATZNARPIAO"
+        },
+        {
+          "sample": 20,
+          "letters": 89,
+          "vowelPct": 41.6,
+          "rareCount": 2,
+          "trickMarked": 13,
+          "avgPlayableWords12": 2.2,
+          "sequence": "IBPLEDAHIAYRIEFNLOYEANTNAIEDASCTOMZYEPELNSOAETLTOIDWDEHELAMTLANHTEANHJUTSETEAOGUTITSPOUNB"
+        }
+      ]
+    },
+    {
+      "id": "current-word-nudge",
+      "label": "Current + word nudge",
+      "notes": "Keeps current randomness but prefers letters that form common bigrams/trigrams with the recent stream.",
+      "playabilityScore": 54.4,
+      "scoreParts": {
+        "affordance": 100,
+        "deadWindows": 96.6,
+        "longWords": 74.8,
+        "trickReliability": 37.8,
+        "rareAccess": 0,
+        "commonDroughts": 0,
+        "variety": 74.3
+      },
+      "means": {
+        "objects": 117,
+        "letters": 96.3,
+        "hazards": 11.4,
+        "bonuses": 9.3,
+        "vowelPct": 40.6,
+        "rareCount": 0.03,
+        "maxRareGap": 96,
+        "trickMarked": 10.7,
+        "avgPlayableWords12": 6.2,
+        "deadWordWindowPct": 1.1,
+        "longWordWindowPct": 74.8,
+        "worstCommonLetterGap": 95.6,
+        "normalizedEntropy": 74.3
+      },
+      "rates": {
+        "noRareRunPct": 96.6,
+        "twoTrickCyclesPct": 37.8,
+        "trickSubsequencePct": 100
+      },
+      "p90": {
+        "maxRareGap": 102,
+        "worstCommonLetterGap": 102,
+        "deadWordWindowPct": 4.5
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "letters": 95,
+          "vowelPct": 37.9,
+          "rareCount": 0,
+          "trickMarked": 11,
+          "avgPlayableWords12": 7,
+          "sequence": "NPARENTERSTESTERINESLARENDSERSTARENTERSTESULNTEREARTITERSERSTEDINESTOREAPLARNIENTERATENDSESTEDI"
+        },
+        {
+          "sample": 2,
+          "letters": 94,
+          "vowelPct": 43.6,
+          "rareCount": 0,
+          "trickMarked": 13,
+          "avgPlayableWords12": 6.4,
+          "sequence": "VOTPOREASTARESTALELEARTALESTESNGESTERADETALEARPLEARALESTERICENTERSTESTAREARETAREARESTAPERESTAL"
+        },
+        {
+          "sample": 3,
+          "letters": 92,
+          "vowelPct": 41.3,
+          "rareCount": 0,
+          "trickMarked": 12,
+          "avgPlayableWords12": 7,
+          "sequence": "DSTESTENPAREALERSAMESNTERSERSTENTERANINEATESPATERSELSTEASTERSELSTALEARENTHOREAREASTOETHEARTI"
+        },
+        {
+          "sample": 4,
+          "letters": 105,
+          "vowelPct": 41.9,
+          "rareCount": 0,
+          "trickMarked": 5,
+          "avgPlayableWords12": 6,
+          "sequence": "WERESTALEAREPOSTERSERSTERSERSOLINERSELSTERALEARELOAREASTOREAREASTNEREARDSENTERSONTAESTERSTERSERSTERSEARDE"
+        },
+        {
+          "sample": 5,
+          "letters": 91,
+          "vowelPct": 45.1,
+          "rareCount": 0,
+          "trickMarked": 12,
+          "avgPlayableWords12": 5.5,
+          "sequence": "TEREASTALESTEPLALEARESTALEARECTATERALENTETALEAPENLAREASERALEATERANTEDEARTHERSERSTEDINETHERS"
+        },
+        {
+          "sample": 6,
+          "letters": 96,
+          "vowelPct": 40.6,
+          "rareCount": 0,
+          "trickMarked": 13,
+          "avgPlayableWords12": 8.2,
+          "sequence": "INPAREARESTALESTELONTESTERANTEREANDOUREATERSTEPOSTLAREARESTATERSENTHERSESTAERSERSTEDSELTSERPONGE"
+        },
+        {
+          "sample": 7,
+          "letters": 96,
+          "vowelPct": 40.6,
+          "rareCount": 0,
+          "trickMarked": 7,
+          "avgPlayableWords12": 7.3,
+          "sequence": "PLAREARESTATERSERALENTERSTERSENTHEAREARTSESENTHORENGERSTERTHEAREAPSTEREATOREATERANTESTERSTESTERA"
+        },
+        {
+          "sample": 8,
+          "letters": 99,
+          "vowelPct": 37.4,
+          "rareCount": 0,
+          "trickMarked": 11,
+          "avgPlayableWords12": 5,
+          "sequence": "NERSERSPERSELSTEDSLARALESERATHOUREASNERSERSTENDSESTERANDSERSERANDSESTEDINERSEPOREARESTLEARNERSENTHE"
+        },
+        {
+          "sample": 9,
+          "letters": 92,
+          "vowelPct": 40.2,
+          "rareCount": 0,
+          "trickMarked": 21,
+          "avgPlayableWords12": 7.6,
+          "sequence": "PATERLEARATERESINTERTHERPOSTERLEASTERALEANDSETHERPOSESTELOWESALNETHERSTERSEPLARTINELANDOWERE"
+        },
+        {
+          "sample": 10,
+          "letters": 92,
+          "vowelPct": 41.3,
+          "rareCount": 0,
+          "trickMarked": 10,
+          "avgPlayableWords12": 6,
+          "sequence": "PALEARENTSERSERANTALESNEDITEDINESTEDITERYILEAREARTHANDEATHEASTPACTINELELSINALNTERSERINGESTER"
+        },
+        {
+          "sample": 11,
+          "letters": 95,
+          "vowelPct": 40,
+          "rareCount": 0,
+          "trickMarked": 8,
+          "avgPlayableWords12": 6.3,
+          "sequence": "GERPORELEARTHERALETHEARTIONTERENTHOESTERALEARENTHEAREARTIESTERSONTERSERSTERAPERSERSTERSERSTERSL"
+        },
+        {
+          "sample": 12,
+          "letters": 102,
+          "vowelPct": 39.2,
+          "rareCount": 0,
+          "trickMarked": 12,
+          "avgPlayableWords12": 6.3,
+          "sequence": "PATERLEASINALEASTESTERSTENTERALEARESTORENTNESTERSTERSERSTEDINGTERSEPLANDEASLARESTALEATENDSERSERANTESET"
+        },
+        {
+          "sample": 13,
+          "letters": 99,
+          "vowelPct": 40.4,
+          "rareCount": 0,
+          "trickMarked": 13,
+          "avgPlayableWords12": 7,
+          "sequence": "TESTALEPLEARTHEREATLONEREARSTEANGESTERSTERINTPAREARLESTERSTERALEARENTHESTERALEASERSTEARTINPLEASTEST"
+        },
+        {
+          "sample": 14,
+          "letters": 91,
+          "vowelPct": 46.2,
+          "rareCount": 0,
+          "trickMarked": 10,
+          "avgPlayableWords12": 6,
+          "sequence": "UREAREAPLEAREARTIORENTERIVENTHERTHEPOSTEREATARLESTALESERSTALERNINGERANDSELEATHOUREARESTOREA"
+        },
+        {
+          "sample": 15,
+          "letters": 99,
+          "vowelPct": 46.5,
+          "rareCount": 0,
+          "trickMarked": 12,
+          "avgPlayableWords12": 4.5,
+          "sequence": "PAPLEANDERANTESESTALEARESTIESINERALEARTIONTENDSOTEREARTINGERSERSTEPARLEAREARTSIOUREAREASTEASNGETARE"
+        },
+        {
+          "sample": 16,
+          "letters": 96,
+          "vowelPct": 43.8,
+          "rareCount": 0,
+          "trickMarked": 12,
+          "avgPlayableWords12": 5.7,
+          "sequence": "AREPORELOWELOWSERSERATERSANTESTERSTAEREARTHEAREALSENTESTINGEREASTINEREPLISTEDINERALEARENDSERATET"
+        },
+        {
+          "sample": 17,
+          "letters": 92,
+          "vowelPct": 34.8,
+          "rareCount": 0,
+          "trickMarked": 12,
+          "avgPlayableWords12": 5.3,
+          "sequence": "NTERSERSPENDSERSERALEARTLEARNICESTERAPERATELSENDSERSERANTERSERANDSENTENDSERSERYINGESTESTARST"
+        },
+        {
+          "sample": 18,
+          "letters": 98,
+          "vowelPct": 35.7,
+          "rareCount": 0,
+          "trickMarked": 12,
+          "avgPlayableWords12": 6.8,
+          "sequence": "FINERSEPOLDEASTERANSTESTEARTHERSNERSTERSERSTEPLESTLESTESTAINERSALNGERSERSTERATESTERALESTEDITESINGT"
+        },
+        {
+          "sample": 19,
+          "letters": 92,
+          "vowelPct": 39.1,
+          "rareCount": 0,
+          "trickMarked": 10,
+          "avgPlayableWords12": 6.9,
+          "sequence": "TPRICENTESULEARALENERSTALEARESTALEASENTHERSERSTEDITENTESORTSERSEPLINERLEASTERSERATERSNESTERS"
+        },
+        {
+          "sample": 20,
+          "letters": 98,
+          "vowelPct": 42.9,
+          "rareCount": 0,
+          "trickMarked": 15,
+          "avgPlayableWords12": 7,
+          "sequence": "REASTESTERSPERINLESTERALNTERESTALEARESTATESEPOSTEARELINEANTESTESURECONESTERSTEDITESTPARELEARTINEAR"
+        }
+      ]
+    },
+    {
+      "id": "trick-floor",
+      "label": "Current + trick floor",
+      "notes": "Keeps trick letters on pace for at least two full trick-word cycles.",
+      "playabilityScore": 52.5,
+      "scoreParts": {
+        "affordance": 46,
+        "deadWindows": 35.1,
+        "longWords": 17.3,
+        "trickReliability": 91.9,
+        "rareAccess": 61.5,
+        "commonDroughts": 0,
+        "variety": 94.7
+      },
+      "means": {
+        "objects": 117,
+        "letters": 96.2,
+        "hazards": 11.4,
+        "bonuses": 9.4,
+        "vowelPct": 40.5,
+        "rareCount": 2.38,
+        "maxRareGap": 56.4,
+        "trickMarked": 13.6,
+        "avgPlayableWords12": 2,
+        "deadWordWindowPct": 21.6,
+        "longWordWindowPct": 17.3,
+        "worstCommonLetterGap": 74.7,
+        "normalizedEntropy": 94.7
+      },
+      "rates": {
+        "noRareRunPct": 8.1,
+        "twoTrickCyclesPct": 91.9,
+        "trickSubsequencePct": 100
+      },
+      "p90": {
+        "maxRareGap": 89,
+        "worstCommonLetterGap": 95,
+        "deadWordWindowPct": 34.8
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "letters": 99,
+          "vowelPct": 39.4,
+          "rareCount": 1,
+          "trickMarked": 15,
+          "avgPlayableWords12": 2.4,
+          "sequence": "YPWIDERLYOLBHARELTEHOUTSHIDEARENRSEAITPCIBHUIURTKELRFOIPIGANLTEDWTIAPCTALPNIWNEIEPARDTOGFIFPMELABAO"
+        },
+        {
+          "sample": 2,
+          "letters": 95,
+          "vowelPct": 47.4,
+          "rareCount": 1,
+          "trickMarked": 12,
+          "avgPlayableWords12": 1.9,
+          "sequence": "IAKPAINBNASUETMLOLMHABNSANDHAPSHEOMAIENTNEHTOIEFIOSAIPYEILEATSATMIGUALRVEIHONUENHAEDOTHAEADEUTH"
+        },
+        {
+          "sample": 3,
+          "letters": 94,
+          "vowelPct": 40.4,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2,
+          "sequence": "GSEOWSKOPLHOANEBKPAYEITGTAYESWSANTETCECOITDRAOWTSIERXNEPLUTAEQTIAISTDAEYDUFTHOENEPRTOAYEREASLT"
+        },
+        {
+          "sample": 4,
+          "letters": 92,
+          "vowelPct": 37,
+          "rareCount": 0,
+          "trickMarked": 14,
+          "avgPlayableWords12": 3.6,
+          "sequence": "SPBAEYWERTHELNANRETSTONEMEPLISCLIEREYPAODANIRGCANCEYELSIMTEDEHATUYTYESTCANRATPELTSOELVDEUPOG"
+        },
+        {
+          "sample": 5,
+          "letters": 101,
+          "vowelPct": 38.6,
+          "rareCount": 3,
+          "trickMarked": 14,
+          "avgPlayableWords12": 1.8,
+          "sequence": "CPCOHTYESOAETFLERONAVRELKARAENVNEIFTLAOTUEPHPALHNIEUDJANWAWNMEOINETNMAZETHEHDRURCFAEFLPEOGBHETOHRSERL"
+        },
+        {
+          "sample": 6,
+          "letters": 99,
+          "vowelPct": 41.4,
+          "rareCount": 4,
+          "trickMarked": 13,
+          "avgPlayableWords12": 1.6,
+          "sequence": "PIADPIOYBTERLHACUFLEIXNHIEWYMEISPEAXTDOETMDOFMETJREPAWLPELAEYBDEBSNAHNEJRLAUTBHISEAEHIBPEOTSAROASEI"
+        },
+        {
+          "sample": 7,
+          "letters": 97,
+          "vowelPct": 38.1,
+          "rareCount": 4,
+          "trickMarked": 14,
+          "avgPlayableWords12": 1.3,
+          "sequence": "SMPEOPILSGODNREOPHTAULPAHIALKDANPEACNEHBDUSAHETMTOACRNAPICOIUNLODSOHSZAWQHOKTVUNECOTODYETRPEDTAEL"
+        },
+        {
+          "sample": 8,
+          "letters": 93,
+          "vowelPct": 36.6,
+          "rareCount": 1,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2,
+          "sequence": "IGSKEIPGEPYLOLMINDSIOWSATHOGBSANTSENLEANMEVHCIHTLOYTPENPYALSATRSEALNVARYTINRIONAEOWEWIOYEPETN"
+        },
+        {
+          "sample": 9,
+          "letters": 95,
+          "vowelPct": 40,
+          "rareCount": 3,
+          "trickMarked": 11,
+          "avgPlayableWords12": 1.8,
+          "sequence": "ZAPTSOCVEGRTUITLWIANYMEANEAKTRAITEOERTDOETSIYPRISRAZEANSCEHPLIERWISLICLABOENHALTCOBOHRYELASOCDO"
+        },
+        {
+          "sample": 10,
+          "letters": 100,
+          "vowelPct": 41,
+          "rareCount": 2,
+          "trickMarked": 12,
+          "avgPlayableWords12": 1.6,
+          "sequence": "OYEBONAPLPOIATEWONIETEODCPADOTWOPSETNOHDLUPSHEBCNIAIFTYUSHSETDULKAIGITRANENRTARENATVTANLHAIYHIEZTSEI"
+        },
+        {
+          "sample": 11,
+          "letters": 91,
+          "vowelPct": 39.6,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.1,
+          "sequence": "IPNRIWJENSNATLSUAOTETNHAHETVGEUNDCERILUEWNIHALITHPEAKLAEDOVTBAKUDUWDONHANSELHNEFBIARITWETSA"
+        },
+        {
+          "sample": 12,
+          "letters": 106,
+          "vowelPct": 44.3,
+          "rareCount": 2,
+          "trickMarked": 15,
+          "avgPlayableWords12": 1.5,
+          "sequence": "EOPLAEAHEWNJAOAHNSONHETHTEIRPSAOFPNALIAIROMOUASERCRENFEOITEFKCESNPAUHTDAEABVNOPAUGTFAFOLASVLOHAMHMIAETBATL"
+        },
+        {
+          "sample": 13,
+          "letters": 87,
+          "vowelPct": 41.4,
+          "rareCount": 2,
+          "trickMarked": 15,
+          "avgPlayableWords12": 2,
+          "sequence": "TPEIGTLEANENTRELDWAHEASENTPOUALDAEOSRUEPHENMSAHFSAVNEWBQITYLIYAIKSUENPNEULERHSILIMACERA"
+        },
+        {
+          "sample": 14,
+          "letters": 97,
+          "vowelPct": 39.2,
+          "rareCount": 2,
+          "trickMarked": 13,
+          "avgPlayableWords12": 2.3,
+          "sequence": "PEMTPILAYIOENCFANRDAECGOTEHSFOLHTOEPCETHLIMALWEIULASEHNODELYTIRKLIWNKIOATEARETRTOSPWAYODRHEWTLOAR"
+        },
+        {
+          "sample": 15,
+          "letters": 104,
+          "vowelPct": 37.5,
+          "rareCount": 2,
+          "trickMarked": 18,
+          "avgPlayableWords12": 2.1,
+          "sequence": "LHPESONILASLOSDTINONEMCDASTNEBHSOPVLANCEGMHUEOJTEISHTUNETEIWDTIHPHOLQRAHNDUTDEASNOETFTUCDVASOEHEOACITETL"
+        },
+        {
+          "sample": 16,
+          "letters": 97,
+          "vowelPct": 42.3,
+          "rareCount": 2,
+          "trickMarked": 14,
+          "avgPlayableWords12": 1.6,
+          "sequence": "PETOLTASAEWIROAHCNEBTPEITODLIEUPERAGRTAOUNENTGOETLSIANSEHNTETVOEHYEYMIETOEFDIRQSOPTPEJMUTBITLEYET"
+        },
+        {
+          "sample": 17,
+          "letters": 96,
+          "vowelPct": 43.8,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 1.5,
+          "sequence": "EOFOYANPHATMALQHAEYTDASMWITWUVANQFODENIHIOGTSENYATVSECAPDFUCOAOLAFBNERJEOLAUYEINAEISUETADEAWTMEP"
+        },
+        {
+          "sample": 18,
+          "letters": 91,
+          "vowelPct": 35.2,
+          "rareCount": 7,
+          "trickMarked": 14,
+          "avgPlayableWords12": 2.3,
+          "sequence": "TPNOEREPTALFDILEFATLDOPDRANHGEWKTUONESEOSTAJPNIOLDHELIQLXEBLTANLROAYESTFAROWNKOYKPIETKAPLCA"
+        },
+        {
+          "sample": 19,
+          "letters": 95,
+          "vowelPct": 38.9,
+          "rareCount": 4,
+          "trickMarked": 13,
+          "avgPlayableWords12": 2,
+          "sequence": "ENGPOKOSDQALNXELSWAINEROLOTYTEONOTEDERITGERIFEUTFPELSONECLGIDTLASNMOCMCAOKNMEIUCELNUETNCOINCLIP"
+        },
+        {
+          "sample": 20,
+          "letters": 92,
+          "vowelPct": 38,
+          "rareCount": 3,
+          "trickMarked": 11,
+          "avgPlayableWords12": 1.7,
+          "sequence": "TSTISPWEVOELHUOABDAEFRLOHNCIXTUGTAIEMNRICETPTEMWAPLTAUXKOTSLACIANRHECETLOSTESWTELOTEYTMEIHAT"
+        }
+      ]
+    },
+    {
+      "id": "weighted-deck",
+      "label": "64-letter weighted deck",
+      "notes": "Draws letters without replacement from a small weighted deck, Tetris-bag style.",
+      "playabilityScore": 50.7,
+      "scoreParts": {
+        "affordance": 49.9,
+        "deadWindows": 32.8,
+        "longWords": 17.9,
+        "trickReliability": 45.9,
+        "rareAccess": 82.4,
+        "commonDroughts": 17.5,
+        "variety": 97.7
+      },
+      "means": {
+        "objects": 117,
+        "letters": 95.6,
+        "hazards": 11.9,
+        "bonuses": 9.5,
+        "vowelPct": 36.8,
+        "rareCount": 2.57,
+        "maxRareGap": 50.8,
+        "trickMarked": 11.1,
+        "avgPlayableWords12": 2.1,
+        "deadWordWindowPct": 22.4,
+        "longWordWindowPct": 17.9,
+        "worstCommonLetterGap": 59.5,
+        "normalizedEntropy": 97.7
+      },
+      "rates": {
+        "noRareRunPct": 0,
+        "twoTrickCyclesPct": 45.9,
+        "trickSubsequencePct": 100
+      },
+      "p90": {
+        "maxRareGap": 66,
+        "worstCommonLetterGap": 73,
+        "deadWordWindowPct": 36.4
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "letters": 96,
+          "vowelPct": 35.4,
+          "rareCount": 3,
+          "trickMarked": 14,
+          "avgPlayableWords12": 1.9,
+          "sequence": "SRSOMRTEYPWILHDAGLUNSATSABNLEOETKMOADIFWPACIVHAOLNHAETINEKTRETNEUOPNTECRPEDTHULSEFKHESCTAYSDUIOT"
+        },
+        {
+          "sample": 2,
+          "letters": 93,
+          "vowelPct": 36.6,
+          "rareCount": 2,
+          "trickMarked": 13,
+          "avgPlayableWords12": 2.2,
+          "sequence": "PELEOANRDAIEPOEKSKETARMNATEDHAOTPSEYLWOCGANSINSRUMNVEBHCUETHTOILDRAFTLINTHWTOWHTIEYCEODPTOUNM"
+        },
+        {
+          "sample": 3,
+          "letters": 104,
+          "vowelPct": 36.5,
+          "rareCount": 2,
+          "trickMarked": 13,
+          "avgPlayableWords12": 1.8,
+          "sequence": "IANMSEORCOITDPEHYDELTOLNWASUBINRNERETOHRKESAMHTAPCDALVONIGTELKUTFTEPHWASILHATONEWOETDGORITPERELITYTISCAR"
+        },
+        {
+          "sample": 4,
+          "letters": 94,
+          "vowelPct": 36.2,
+          "rareCount": 2,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.3,
+          "sequence": "SAPLOALRFOMNSOWEUHNAETPCEKPOLMDISDREIOTATHALETKEBGIANWSANDTUTVIHCREHNYETRENDCEFYELOGESTOROTMNI"
+        },
+        {
+          "sample": 5,
+          "letters": 99,
+          "vowelPct": 38.4,
+          "rareCount": 3,
+          "trickMarked": 8,
+          "avgPlayableWords12": 1.9,
+          "sequence": "PTOLNSIANEROFYAHWELKTATGHIAOCUBATOVSHERDEPCMIRKMAHEWTNOELSEDNUNESRIDTPTIWEAVSRANSLIHPNIHEAWAESOEKAR"
+        },
+        {
+          "sample": 6,
+          "letters": 98,
+          "vowelPct": 36.7,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 1.8,
+          "sequence": "GISTIKLDOLOETETHBUPNADKANUCIELIOANYEOTHEWRSOAHSWAPMLEPEMTFAERTHTCDSNAVNRRENOABERHTOEKISMDOTMSOWPAS"
+        },
+        {
+          "sample": 7,
+          "letters": 97,
+          "vowelPct": 36.1,
+          "rareCount": 2,
+          "trickMarked": 8,
+          "avgPlayableWords12": 1.9,
+          "sequence": "AROTARWHUASTPIONIVEMEAROHCFIUOWTNEIRHKESENPLEGSTOCNKETLYADMABTLDSHDECSRENHOYIETPIOTPMILRMOETFCIWT"
+        },
+        {
+          "sample": 8,
+          "letters": 93,
+          "vowelPct": 36.6,
+          "rareCount": 3,
+          "trickMarked": 16,
+          "avgPlayableWords12": 1.6,
+          "sequence": "AOHRHEKOEBNPELCHIKWATNUAPELTAYIWTREONEGSHOSNOTETFDERDIPLAMAUVTSANINMTDLSETPLCARNOEHEORNVAHARK"
+        },
+        {
+          "sample": 9,
+          "letters": 92,
+          "vowelPct": 35.9,
+          "rareCount": 3,
+          "trickMarked": 16,
+          "avgPlayableWords12": 1.5,
+          "sequence": "RTFETDNOPSGAYKLOIOSANEAESIWBATAPTMIUHCRUNEHKLAPHLAERNSECHELTNETDEROVDMONTWILTWEAPUSLIADKNORS"
+        },
+        {
+          "sample": 10,
+          "letters": 98,
+          "vowelPct": 35.7,
+          "rareCount": 2,
+          "trickMarked": 10,
+          "avgPlayableWords12": 1.8,
+          "sequence": "FSUCOSPEVTANSLAOTETOEIHDIBRUANROIECMLEOWKMAKENTWITEPEPDNALTHARDLANRYGTHSHOPNARLNESUWSETEDCUTLAICMS"
+        },
+        {
+          "sample": 11,
+          "letters": 95,
+          "vowelPct": 35.8,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 3,
+          "sequence": "OSUDMWEINSBITESNPELHELVHOFTEOARTAMCOANREUEYTLADPRIWOKGAPRLESTNAHNKIDCTHTAERNOKTNIHETBEHCDOESMPO"
+        },
+        {
+          "sample": 12,
+          "letters": 103,
+          "vowelPct": 37.9,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 1.5,
+          "sequence": "AEDCIECTKATKHUANOHSPIRLSAONMWEOENYWURSDITAPSPEHTLAIADEMVONERETLTOLNFEBRHTGNTIAITKHEOHTFESHETANPBEADIGPO"
+        },
+        {
+          "sample": 13,
+          "letters": 93,
+          "vowelPct": 36.6,
+          "rareCount": 2,
+          "trickMarked": 11,
+          "avgPlayableWords12": 2.4,
+          "sequence": "UEAPYLAORTOBAIEHSNOHNOTHERVMEDTALNETKGUWPEHKTIACTMEILANRNIETRSAOCDLFDWPSSIEHOATSRARTBINHOVYSE"
+        },
+        {
+          "sample": 14,
+          "letters": 98,
+          "vowelPct": 36.7,
+          "rareCount": 2,
+          "trickMarked": 13,
+          "avgPlayableWords12": 2.8,
+          "sequence": "DPLOKWAOINEHOTUECBNIERESMFAHADPTEATHYAECUTSOPNREMALRTITGLIVATNENTSOWHELDKRSNEDTDORONILAMWUHRAOFPSE"
+        },
+        {
+          "sample": 15,
+          "letters": 84,
+          "vowelPct": 36.9,
+          "rareCount": 2,
+          "trickMarked": 8,
+          "avgPlayableWords12": 2.2,
+          "sequence": "PCRERTEAGNRAIUSKLOSATNIEYOUHSCOWOABMLOEPANKWIEMTIDELHTETHFAVETSDRTNHNDEIPECNOHLCASVE"
+        },
+        {
+          "sample": 16,
+          "letters": 96,
+          "vowelPct": 37.5,
+          "rareCount": 2,
+          "trickMarked": 10,
+          "avgPlayableWords12": 2,
+          "sequence": "ISPOYCHINHDEGTRALOBTNIEDTALOELARMANFWIHUSKSAPNAETENRDUOVSETETMCOWHERTKEWRPEASFPIDCLUHOHARASVNOEA"
+        },
+        {
+          "sample": 17,
+          "letters": 93,
+          "vowelPct": 36.6,
+          "rareCount": 2,
+          "trickMarked": 16,
+          "avgPlayableWords12": 2.1,
+          "sequence": "PLITEACONRSEHKHEOTSTERSITANDETVWEUTFHAMANPSEMDPICKLAGLNOHAELONDOERBANTWUPTLIRYRAHAMLEFREOVONA"
+        },
+        {
+          "sample": 18,
+          "letters": 96,
+          "vowelPct": 37.5,
+          "rareCount": 2,
+          "trickMarked": 5,
+          "avgPlayableWords12": 1.9,
+          "sequence": "NDYOPATOEDHMIRTILPTIHATRSANTVINFCEKLASANEUSEOTOCEBSHAMRDEHGLUEOKWNWREHTEHSNOTWROITOSNALIGOUIHBRE"
+        },
+        {
+          "sample": 19,
+          "letters": 99,
+          "vowelPct": 37.4,
+          "rareCount": 3,
+          "trickMarked": 8,
+          "avgPlayableWords12": 2,
+          "sequence": "DMSEHWKADHTEAUPDOTISFPUNRELABLHESYCOEAGVTOSNETNRIKRAELCRONHEAITNOTWIMRNETLUIHWTEOEHNHAROAIPFTOSIGLK"
+        },
+        {
+          "sample": 20,
+          "letters": 100,
+          "vowelPct": 36,
+          "rareCount": 3,
+          "trickMarked": 5,
+          "avgPlayableWords12": 2.3,
+          "sequence": "MHBANCRUEIDPCETGLATDOSEWKLOHTSIADAPOUOHARETNOVNEKHTISRMEWLFENASRITYNEBNHARTYEICSDOHKINWOEFSDEANHGIOL"
+        }
+      ]
+    },
+    {
+      "id": "deck-floors",
+      "label": "Deck + rare/trick floors",
+      "notes": "Combines bagged letters with rare-letter and trick-word reliability floors.",
+      "playabilityScore": 59.8,
+      "scoreParts": {
+        "affordance": 48.2,
+        "deadWindows": 32,
+        "longWords": 17.2,
+        "trickReliability": 88.1,
+        "rareAccess": 100,
+        "commonDroughts": 10.2,
+        "variety": 98.2
+      },
+      "means": {
+        "objects": 117,
+        "letters": 96.2,
+        "hazards": 11.4,
+        "bonuses": 9.4,
+        "vowelPct": 36.2,
+        "rareCount": 3.71,
+        "maxRareGap": 34.3,
+        "trickMarked": 13.6,
+        "avgPlayableWords12": 2.1,
+        "deadWordWindowPct": 22.7,
+        "longWordWindowPct": 17.2,
+        "worstCommonLetterGap": 61.9,
+        "normalizedEntropy": 98.2
+      },
+      "rates": {
+        "noRareRunPct": 0,
+        "twoTrickCyclesPct": 88.1,
+        "trickSubsequencePct": 100
+      },
+      "p90": {
+        "maxRareGap": 35,
+        "worstCommonLetterGap": 75,
+        "deadWordWindowPct": 34.8
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "letters": 94,
+          "vowelPct": 36.2,
+          "rareCount": 3,
+          "trickMarked": 11,
+          "avgPlayableWords12": 1.5,
+          "sequence": "SPHOENHNOTRMEKILERUDIADAESENWROYETDHEAVTPOUTKAPEOIWHANTSACGCISNLTFLRBTMALNHAOENKIHOHENMRETIMTB"
+        },
+        {
+          "sample": 2,
+          "letters": 95,
+          "vowelPct": 34.7,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 1.8,
+          "sequence": "EREOWRKIPESLODUTINYTEAMANBDENLELTOKHFEHPTIATDISRGAOAVSCEWPTALMUNOTNHCSHAZRBIOGONDATNSIMEDTKISDY"
+        },
+        {
+          "sample": 3,
+          "letters": 102,
+          "vowelPct": 34.3,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 1.7,
+          "sequence": "RPMESGUOASEILATOEICNVOATNARNIULREDJKAHMESECLDITOWHDEWPBAPENTFORLHTASNHTYTNKOHEBDLEUFHPAVROTCTEYRNOTDGA"
+        },
+        {
+          "sample": 4,
+          "letters": 90,
+          "vowelPct": 35.6,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 1.1,
+          "sequence": "TEICRUTPLABGASRCEWNVAOETIAIKTNENKPUHLFEHMLOTNWAESIDSDERPTODNHAELOYRJOHMATSFONKENAHRBANUEYT"
+        },
+        {
+          "sample": 5,
+          "letters": 93,
+          "vowelPct": 36.6,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.7,
+          "sequence": "HNACNMOPSLEREGAORTAUNWNODTEKETHLOVSTUSWPERKIBRELOATNHIEASYITFMEIADHPETNDACLOEZASHKATDTIMINGTO"
+        },
+        {
+          "sample": 6,
+          "letters": 101,
+          "vowelPct": 36.6,
+          "rareCount": 4,
+          "trickMarked": 19,
+          "avgPlayableWords12": 1.9,
+          "sequence": "HSPEDUMTELOANFAONOWTEDSTIVHETOTSAPJUKLAEGERBSINYALAKERTHIHALWDEPMRONLCEANRCIPTETNNTIOKIGEMHETHISPDAYO"
+        },
+        {
+          "sample": 7,
+          "letters": 90,
+          "vowelPct": 35.6,
+          "rareCount": 3,
+          "trickMarked": 14,
+          "avgPlayableWords12": 2.2,
+          "sequence": "UATHMAEPLHEITRASTONEIENYBAKEGDLETOFSDAMWIPDTATCPILTANKNUSORELEHSRONHROCNETWVAPISHLIDRMIRKA"
+        },
+        {
+          "sample": 8,
+          "letters": 94,
+          "vowelPct": 34,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 2,
+          "sequence": "PTHELRVEOAMUDRNEHEOPHMAEKTRASETACODANYPAIESLGONASETIUNTFIEWJIOTLCTNWNDHKBSRTLAHTORHPIWLTIDMHIR"
+        },
+        {
+          "sample": 9,
+          "letters": 107,
+          "vowelPct": 36.4,
+          "rareCount": 3,
+          "trickMarked": 16,
+          "avgPlayableWords12": 1.9,
+          "sequence": "NEOPGEUOSERLOIHLWATVTEASAFNSINDKENMTETPOLAEMDRUTCOTBDAKPNELYRIASNCAHRTEHIWHIOSTUWKHEWPEMSRAROGLOTCAUCHEAVDN"
+        },
+        {
+          "sample": 10,
+          "letters": 100,
+          "vowelPct": 37,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 2.5,
+          "sequence": "EHBEWAUPEOLRUNFOARAVNSINWLEKATPHEADIKETSDAEMRMOTPTOGSIHYRODELTNISNLATNCEZCTHIENSARETANFICNBEOERNPUPW"
+        },
+        {
+          "sample": 11,
+          "letters": 90,
+          "vowelPct": 37.8,
+          "rareCount": 4,
+          "trickMarked": 11,
+          "avgPlayableWords12": 0.7,
+          "sequence": "ODTHAERPUSLSOERIEHGFIANIENEWMURNETKONRSIKETAPYVOEHCTADSPAKONBLALACTMHTWDLTUANUYOTKNORVEBEI"
+        },
+        {
+          "sample": 12,
+          "letters": 96,
+          "vowelPct": 35.4,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 1.5,
+          "sequence": "EPCILMOUTNLUTRANTAENHLONITAREFERSBIQMDESEWTDAOEVPCOKDAHYPELAKGROITAHNTSHWSIETWTONMSAUFRESWHARGIT"
+        },
+        {
+          "sample": 13,
+          "letters": 96,
+          "vowelPct": 34.4,
+          "rareCount": 3,
+          "trickMarked": 16,
+          "avgPlayableWords12": 2.5,
+          "sequence": "RDEDNAKPLIMEIAVLTAOCGNEUPISAEKTPOSATENBMUSFTECDORLWEHALHONTANWESQHITRNOTYREHPLTANTNAMFOECHSAYIRN"
+        },
+        {
+          "sample": 14,
+          "letters": 100,
+          "vowelPct": 36,
+          "rareCount": 3,
+          "trickMarked": 15,
+          "avgPlayableWords12": 1.6,
+          "sequence": "THPESRSIOKANTAOLNUANMCEOCEWONALHOEADYETPIAHLKITMDISTERETSHURVDPEANBNREWFLTKGAETNEYDSOMTPACNCELURDLAI"
+        },
+        {
+          "sample": 15,
+          "letters": 99,
+          "vowelPct": 35.4,
+          "rareCount": 4,
+          "trickMarked": 16,
+          "avgPlayableWords12": 1.7,
+          "sequence": "AHANUDKPIEMGTOELASRNOLAEROUTWEOCIRSTEPYNEKSOVLAPTAFTDAMHENTKENBHETLPITLDINHAWRSCEIAMGNODKANPSOTUTNR"
+        },
+        {
+          "sample": 16,
+          "letters": 94,
+          "vowelPct": 36.2,
+          "rareCount": 4,
+          "trickMarked": 14,
+          "avgPlayableWords12": 3,
+          "sequence": "TNPIVODLFEACSTAUYLKANTEDEOATHENTNEUDBPIOSLHIECATPRISMLAKANMREWORTHORGSETEWHKNIRPAMHLOKEIOSELFS"
+        },
+        {
+          "sample": 17,
+          "letters": 95,
+          "vowelPct": 35.8,
+          "rareCount": 3,
+          "trickMarked": 11,
+          "avgPlayableWords12": 2.1,
+          "sequence": "SYPIEKRLAREMSADNOLETFRENAORHETBESATWHAKPISPLEHLTUCIADTUNAOENWHOGMTIOVNCTDIKFSEHNYEIREVTHADAETCB"
+        },
+        {
+          "sample": 18,
+          "letters": 103,
+          "vowelPct": 34,
+          "rareCount": 3,
+          "trickMarked": 17,
+          "avgPlayableWords12": 1.2,
+          "sequence": "TEPTOHLDIELREOANEMHETSPEOMKSATWRIKVIURFORSLOSYINDALAETUNTACNTEATNWANZHEPCGHBPDERSLASNLETRBUVSAYNFOTEDOP"
+        },
+        {
+          "sample": 19,
+          "letters": 97,
+          "vowelPct": 38.1,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 1.7,
+          "sequence": "PFLADIEUKYHEHEDSRALHMOENDROHGWANTMACETPSIOSQEBETNTONSVIATCLAEWLTITUKRPOANRNAEWTREIBETIATEKDEIRYTO"
+        },
+        {
+          "sample": 20,
+          "letters": 92,
+          "vowelPct": 37,
+          "rareCount": 5,
+          "trickMarked": 11,
+          "avgPlayableWords12": 2.1,
+          "sequence": "SYKONBTUPDEIHAELHSOAORARIEAFNIENPRETLKADWTESNOCTEKMLUTIPGASHCETLHOAMDWTRVNIUDRINEAODXMEKNTEH"
+        }
+      ]
+    },
+    {
+      "id": "deck-floors-word-nudge",
+      "label": "Deck + floors + word nudge",
+      "notes": "Adds a light English bigram/trigram preference to the deck + floor candidate.",
+      "playabilityScore": 75.6,
+      "scoreParts": {
+        "affordance": 100,
+        "deadWindows": 49.1,
+        "longWords": 44.4,
+        "trickReliability": 88.1,
+        "rareAccess": 100,
+        "commonDroughts": 16.1,
+        "variety": 96.2
+      },
+      "means": {
+        "objects": 117,
+        "letters": 96.4,
+        "hazards": 11.5,
+        "bonuses": 9.1,
+        "vowelPct": 36.4,
+        "rareCount": 3.17,
+        "maxRareGap": 34.5,
+        "trickMarked": 13.5,
+        "avgPlayableWords12": 3.8,
+        "deadWordWindowPct": 17,
+        "longWordWindowPct": 44.4,
+        "worstCommonLetterGap": 60,
+        "normalizedEntropy": 96.2
+      },
+      "rates": {
+        "noRareRunPct": 0,
+        "twoTrickCyclesPct": 88.1,
+        "trickSubsequencePct": 100
+      },
+      "p90": {
+        "maxRareGap": 35,
+        "worstCommonLetterGap": 68,
+        "deadWordWindowPct": 26.1
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "letters": 102,
+          "vowelPct": 37.3,
+          "rareCount": 3,
+          "trickMarked": 14,
+          "avgPlayableWords12": 4.4,
+          "sequence": "PLERSEARNINDEASERANDSENTALEREATHPOLJOUTESTOPINTHOUTIODAYMKITHLCAMBWFGWVHKCORESTNIETHEASTERTHICPAREASLO"
+        },
+        {
+          "sample": 2,
+          "letters": 102,
+          "vowelPct": 35.3,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.9,
+          "sequence": "OREAREPORELOWESTESTAINEATNGERSESTAQUICTIOPLYOUNDATHINDATHLCALMBFMPDVKHKWNHOREASNERSENTHERSTONTSINTALIN"
+        },
+        {
+          "sample": 3,
+          "letters": 100,
+          "vowelPct": 36,
+          "rareCount": 3,
+          "trickMarked": 18,
+          "avgPlayableWords12": 3.3,
+          "sequence": "APELEARANTNERSTERSTESUERATEPLATHEAZONOANDESTONTHOWINGPOWILICLDUCHILYPMKVKTBMADHFINENESTORTINERSENTHE"
+        },
+        {
+          "sample": 4,
+          "letters": 103,
+          "vowelPct": 35,
+          "rareCount": 3,
+          "trickMarked": 14,
+          "avgPlayableWords12": 3.9,
+          "sequence": "STESPERSTERSERALETHOUALENTEDINGHOEQPARINDATIONTHOTINDOWPALACKLUMBACHNKETYMFVWEREARTINTERSTESTEPLANTERSL"
+        },
+        {
+          "sample": 5,
+          "letters": 97,
+          "vowelPct": 36.1,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 4,
+          "sequence": "OREARESPLEASTEAREARTICKEDINGSESNTONTHEATHOUNDOWTHONTALIPLKIDYPULFKVBCMHAMWERNTERSERANDIENTAINTERT"
+        },
+        {
+          "sample": 6,
+          "letters": 98,
+          "vowelPct": 36.7,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 3.6,
+          "sequence": "PALESELOWNESERSONTARALERNITHITEDINKICATESTAKERYTOMPACHOULTHOUNDVAMPHGFKBWDEANDSERSERALEASENDOMETHP"
+        },
+        {
+          "sample": 7,
+          "letters": 94,
+          "vowelPct": 38.3,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.7,
+          "sequence": "EREASHOPLERSERSTEDOANDSINEREATHNOTXCOEANTICAMALTUDOWPLINGITHUATHNWELYTFMKPBKVEREARTIONGEREASTA"
+        },
+        {
+          "sample": 8,
+          "letters": 94,
+          "vowelPct": 36.2,
+          "rareCount": 4,
+          "trickMarked": 11,
+          "avgPlayableWords12": 5,
+          "sequence": "HOUPLEASERANTERSTAIANTERESTOREANDIKSTEDENTHINGHOUTOMPLACKHOWILYLVDPCFMKABWEREASNTICKERSERANDSE"
+        },
+        {
+          "sample": 9,
+          "letters": 93,
+          "vowelPct": 34.4,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 3.6,
+          "sequence": "AREPLESLAREASTSEAREDINGARENETHOUNDXINESTIOTHPANDOLOCTICKLOWHTFUTHBAMPYKVMWESTERNSERSONTERSTEN"
+        },
+        {
+          "sample": 10,
+          "letters": 102,
+          "vowelPct": 37.3,
+          "rareCount": 4,
+          "trickMarked": 14,
+          "avgPlayableWords12": 4.5,
+          "sequence": "PAREARTHEALEASTERSTERSEASTOPINDNELKLOWTHENTAINGITHOUNDYIPOWOMUMLANDVEKBKCHFCKETSERTHOPEAREATHOURLYEAST"
+        },
+        {
+          "sample": 11,
+          "letters": 89,
+          "vowelPct": 37.1,
+          "rareCount": 3,
+          "trickMarked": 11,
+          "avgPlayableWords12": 3.1,
+          "sequence": "DERANDSEPORLEAREARTHEATANTHENTESTOZONGSESTAITHINDOWICKIPLYULOCKLUMPHWBFAMVEREASNTERSERALE"
+        },
+        {
+          "sample": 12,
+          "letters": 89,
+          "vowelPct": 36,
+          "rareCount": 3,
+          "trickMarked": 11,
+          "avgPlayableWords12": 4.5,
+          "sequence": "GERSESTPAREASTLAREASTEDINDOWERYNITKINELEALONTHOTHANITHOPUBODULMPMFCKCKWAVNHOREARSENTERSTE"
+        },
+        {
+          "sample": 13,
+          "letters": 98,
+          "vowelPct": 35.7,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 3,
+          "sequence": "ERPLESTEANDERSERSTEDTERATESINGHOUNKNOTHOWILINTATHOULACHPACKADIOLYPAMBMKWVFINERSNERSERATEDINGSUETHP"
+        },
+        {
+          "sample": 14,
+          "letters": 103,
+          "vowelPct": 38.8,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 2.9,
+          "sequence": "FEREPORYSERSTEDLEARANTEDINTALSELOWJOESUPOWNGINTHITHOUNDPACTILTHAVACKHMKAMBEREASNSEREATHIETHEATHOUPOSTED"
+        },
+        {
+          "sample": 15,
+          "letters": 97,
+          "vowelPct": 35.1,
+          "rareCount": 4,
+          "trickMarked": 16,
+          "avgPlayableWords12": 3.4,
+          "sequence": "TEPOLANDSERSERATEDSTAINENDSERTHERTKETAINTPACHLINCOUGHOALIVOWNOEALTHUMKMFKPWYBKETPALESTERSANTENTED"
+        },
+        {
+          "sample": 16,
+          "letters": 93,
+          "vowelPct": 34.4,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 4,
+          "sequence": "HOUREARPATESTEDLONANERSERALETATINDKETHESTONSIPUNIOWITHOWALMPCBKCYHVDKGMFILATERSNERSTERSENSTED"
+        },
+        {
+          "sample": 17,
+          "letters": 94,
+          "vowelPct": 36.2,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 4.2,
+          "sequence": "STERPORELONTEDIALEASTONTNERAGESTERKINDOMEDITHINTPACHALSLAYMUCHOUPHAVKBWKWFILEASNTERSERSTEDITED"
+        },
+        {
+          "sample": 18,
+          "letters": 96,
+          "vowelPct": 37.5,
+          "rareCount": 3,
+          "trickMarked": 12,
+          "avgPlayableWords12": 4.2,
+          "sequence": "WEREARDPARTINTELEARTINAMENTESUPLANKSINESECTOMTHOUSTOWHIPLACHODOLDAYBKGHVKFINESENTAREASTERINERTHE"
+        },
+        {
+          "sample": 19,
+          "letters": 98,
+          "vowelPct": 36.7,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 3.7,
+          "sequence": "SPELEARTINGERSTEDINESTALEASNTENTERQUICKLARTHOPACTOPILYOUMBODVADHOANKWFHWHMANDERSESTAREAETHINPARETH"
+        },
+        {
+          "sample": 20,
+          "letters": 94,
+          "vowelPct": 35.1,
+          "rareCount": 3,
+          "trickMarked": 15,
+          "avgPlayableWords12": 3.6,
+          "sequence": "PAREARESTULEASAIDNGUERENTHOREATHEAJOINDETHOWNINTPOSTIODSTKBMVCMWYHCFKLPLESTELANDERSERSTEPORLYA"
+        }
+      ]
+    },
+    {
+      "id": "full-fairness",
+      "label": "Deck + floors + vowel ratio guard",
+      "notes": "Adds a rolling vowel-ratio nudge on top of the deck and floor rules.",
+      "playabilityScore": 60.4,
+      "scoreParts": {
+        "affordance": 48.3,
+        "deadWindows": 33.6,
+        "longWords": 17,
+        "trickReliability": 88.8,
+        "rareAccess": 100,
+        "commonDroughts": 13.3,
+        "variety": 98.3
+      },
+      "means": {
+        "objects": 117,
+        "letters": 95.8,
+        "hazards": 11.9,
+        "bonuses": 9.3,
+        "vowelPct": 36.1,
+        "rareCount": 3.69,
+        "maxRareGap": 34.4,
+        "trickMarked": 13.3,
+        "avgPlayableWords12": 2.1,
+        "deadWordWindowPct": 22.1,
+        "longWordWindowPct": 17,
+        "worstCommonLetterGap": 60.9,
+        "normalizedEntropy": 98.3
+      },
+      "rates": {
+        "noRareRunPct": 0,
+        "twoTrickCyclesPct": 88.8,
+        "trickSubsequencePct": 100
+      },
+      "p90": {
+        "maxRareGap": 35,
+        "worstCommonLetterGap": 76,
+        "deadWordWindowPct": 35
+      },
+      "samples": [
+        {
+          "sample": 1,
+          "letters": 100,
+          "vowelPct": 36,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.1,
+          "sequence": "DIADIMOPLEILNYEAKATFRESKMONWNIAWTHEODRVETPTULHPEHELSANRGEOJUAOCSACRTBTSHNTEWTENHPEATAEDMWORGTIXAONRN"
+        },
+        {
+          "sample": 2,
+          "letters": 89,
+          "vowelPct": 36,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 2.3,
+          "sequence": "ISBUSHPAWTDEDRKELIEALHAPMDOKSNETOEATORATEHOVTACTEPLGANFCIUNYOTXENMRIHWENSNLRUTAHTNOAPSWEB"
+        },
+        {
+          "sample": 3,
+          "letters": 92,
+          "vowelPct": 35.9,
+          "rareCount": 3,
+          "trickMarked": 11,
+          "avgPlayableWords12": 1.9,
+          "sequence": "YPLALONSHELAETORKDUFNSARHSINENTCETAEPOTLTAOREWRMIEKHDETICPHUBWAVMOSGTINADARLNEOHEINSDIJTCOYM"
+        },
+        {
+          "sample": 4,
+          "letters": 92,
+          "vowelPct": 37,
+          "rareCount": 4,
+          "trickMarked": 13,
+          "avgPlayableWords12": 1.8,
+          "sequence": "SPNAIAHLVUNHTOMINOATGHIAUTREDERNHOQLSEDEMBWAORYTERPELTKIPELATNWOCFCESKSADNTAPEKETRNUIANMHEOP"
+        },
+        {
+          "sample": 5,
+          "letters": 95,
+          "vowelPct": 35.8,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 2.8,
+          "sequence": "EAPLMOHPVATNGUKTEDNTEWHEIRTLETNSIFDOPBLOEAYAENONHJAELSHIOECRDUKTNIMSTARACTWRSENDHIDENTAIPSRELFO"
+        },
+        {
+          "sample": 6,
+          "letters": 93,
+          "vowelPct": 37.6,
+          "rareCount": 3,
+          "trickMarked": 11,
+          "avgPlayableWords12": 2,
+          "sequence": "YCWUEFLPEOALAEWTIVRSIPTMOHERNEAKTPECDEHSDETRAIOMLOSLAGATNBINUDHTANKTOHNKSRAOTGANUTSHOAIFESRLE"
+        },
+        {
+          "sample": 7,
+          "letters": 102,
+          "vowelPct": 37.3,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.7,
+          "sequence": "HAMDNAKPLATLHORTDOIGSLANIROTFWESTNATDHEWTKISMEUTCERKOSPOVLEPBNAICYENUEHAREDWRAKNTISURITEODIETOETVORMLA"
+        },
+        {
+          "sample": 8,
+          "letters": 97,
+          "vowelPct": 35.1,
+          "rareCount": 4,
+          "trickMarked": 16,
+          "avgPlayableWords12": 2,
+          "sequence": "PHETIKHWERLHEOBNLAEASOFRNAUCESIOIMTNURTSOJWPALSREANCETAEKTIDGOTPHEDMLATNPYTNDVAHSESELDMATUTQONHER"
+        },
+        {
+          "sample": 9,
+          "letters": 94,
+          "vowelPct": 36.2,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.2,
+          "sequence": "CTMUOTSPEALANKWOHNERVKIEHATUINELGPIDLASOSENHEORLTIRFNONEXAERTAEDTWASYHTDBPMCACFEYORSNITEHIWTXE"
+        },
+        {
+          "sample": 10,
+          "letters": 101,
+          "vowelPct": 35.6,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 1.6,
+          "sequence": "OTENOSIPIWTSORCLADOSAYVAIDTNEHAEGSQOTACTBUPDLELHRAMTKIFEHTERLNUNEMKREPWAHNKIBONCNAEAYMSIMLTAWHODARTOR"
+        },
+        {
+          "sample": 11,
+          "letters": 94,
+          "vowelPct": 35.1,
+          "rareCount": 4,
+          "trickMarked": 15,
+          "avgPlayableWords12": 2.6,
+          "sequence": "SIHPTELYWIAODOWCIADNREANSKOAETNDALPTEIGLHOASHRAPEUNUTBCEFSTEXTELVREONRHMTMKNTUPLSERTKAUSBDOTRA"
+        },
+        {
+          "sample": 12,
+          "letters": 104,
+          "vowelPct": 37.5,
+          "rareCount": 3,
+          "trickMarked": 14,
+          "avgPlayableWords12": 2.5,
+          "sequence": "HOPODAHLIOLAFAENSTEARGCOHTKETWHANTLINMSERESADBVETIOPLTEATNPUKEYRSUNIEDNCMRWORTAPEARNHOWONEHDMEPLQATSCUOI"
+        },
+        {
+          "sample": 13,
+          "letters": 93,
+          "vowelPct": 35.5,
+          "rareCount": 4,
+          "trickMarked": 13,
+          "avgPlayableWords12": 1.9,
+          "sequence": "ATPTUBENRHONKEILACTLEIYESRDOINONDMETLDEGPWATWOSLZASVHOCARNAKEPEHRTITMUHAFSNASERKWOESHEHTMEOTP"
+        },
+        {
+          "sample": 14,
+          "letters": 101,
+          "vowelPct": 36.6,
+          "rareCount": 4,
+          "trickMarked": 14,
+          "avgPlayableWords12": 1.9,
+          "sequence": "TUAOWRHIPLCESANEANETOKDODTELRESATPTOGSEHEKRLUMEAHTNAPTLOFANIDNIRHWINBEMCYVSUTJEOARAPKRITDVATSYOTLCOAN"
+        },
+        {
+          "sample": 15,
+          "letters": 99,
+          "vowelPct": 38.4,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 1.5,
+          "sequence": "RDTAMSPETALIALVUENRNOPSIRNHAFKEBSEHTAOPTOGHNULCREIDLOYOWTHICTEWEAQATNENMDSKATIBKCADONAEOWEMATOLTECI"
+        },
+        {
+          "sample": 16,
+          "letters": 106,
+          "vowelPct": 36.8,
+          "rareCount": 4,
+          "trickMarked": 13,
+          "avgPlayableWords12": 1.7,
+          "sequence": "WRNAHPTANMEODKHELAOSHAYNAISTBOELCTEMTPELATWNANCOXRISKEIDLUVRPEIEROFTHUNSTGDEOLETSFAIONHKADBTAEPRIDUSRHAOTM"
+        },
+        {
+          "sample": 17,
+          "letters": 97,
+          "vowelPct": 35.1,
+          "rareCount": 3,
+          "trickMarked": 11,
+          "avgPlayableWords12": 2.4,
+          "sequence": "HDWAPLCIOEHESWTILAOFEHNTERNTORUNRIEZITMDAESPOCASTSALODEAMBVKURTYANEGNLKTHPALWNERFTENRAHAETDCETDSE"
+        },
+        {
+          "sample": 18,
+          "letters": 104,
+          "vowelPct": 37.5,
+          "rareCount": 4,
+          "trickMarked": 16,
+          "avgPlayableWords12": 1.7,
+          "sequence": "VIPEOFUERKDODLTAMITRNUCANTLEHTSEAHNETWOTCSEKNPELDHOERWSAISAMNLAEHGYIPORNATBOTRQECPAUKELTIMHGALIEWRYANUNO"
+        },
+        {
+          "sample": 19,
+          "letters": 90,
+          "vowelPct": 36.7,
+          "rareCount": 3,
+          "trickMarked": 13,
+          "avgPlayableWords12": 1.9,
+          "sequence": "SIROEASPHILRORTKEWALAMIUTCINDBORAEMSDEWKETNHEYNTOTCVAFTPELPTEONAHLUGNHADSNUXNSEOTAETNEYPTI"
+        },
+        {
+          "sample": 20,
+          "letters": 88,
+          "vowelPct": 36.4,
+          "rareCount": 4,
+          "trickMarked": 12,
+          "avgPlayableWords12": 2.1,
+          "sequence": "PMILSFUEKTVOGTSILIAODNOSTPANCMAENLHOEDARSNATPKECIUTREWHBELHOANYNETEWTRAEHKTRDOCKIREYRNIE"
+        }
+      ]
+    }
+  ]
+}

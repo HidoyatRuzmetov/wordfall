@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, height=device-height, user-scalable=0, viewport-fit=cover"
+    />
+    <link rel="stylesheet" type="text/css" href="splash.css" />
+    <title>WordFall</title>
+  </head>
+  <body>
+    <div class="stage">
+      <div class="falls" id="falls" aria-hidden="true"></div>
+      <div class="hero">
+        <h1 class="wordmark">WORD<span class="fall">FALL</span></h1>
+        <p class="tagline">reimagine the fall · a daily word game</p>
+
+        <div class="card">
+          <div class="card-row">
+            <span class="daynum" id="daynum">Daily</span>
+            <span class="rule" id="rule">Loading…</span>
+          </div>
+          <div class="trick">
+            <span class="trick-label">🎯 Trick Word</span>
+            <span class="scramble" id="scramble">· · · · ·</span>
+          </div>
+          <p class="blurb" id="blurb">Catch falling letters, dodge the shards, spell your way up the board.</p>
+        </div>
+
+        <button class="play" id="play">Play today’s drop ▸</button>
+        <p class="foot">new rule &amp; new Trick Word every day</p>
+      </div>
+    </div>
+    <script type="module" src="splash.ts" defer></script>
+  </body>
+</html>
