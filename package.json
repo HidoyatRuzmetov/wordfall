@@ -29,7 +29,7 @@
     "@types/node": "^22.19.19",
     "devvit": "0.13.7",
     "eslint": "10.4.1",
-    "globals": "17.7.0",
+    "globals": "17.8.0",
     "prettier": "3.8.4",
     "typescript": "5.8.3",
     "typescript-eslint": "8.60.1",
